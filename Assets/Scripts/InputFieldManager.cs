@@ -11,10 +11,6 @@ public class InputFieldManager : MonoBehaviour
 
     private LinearRegression linearRegressionComponent;
 
-    [SerializeField] private GameObject scoreManager;
-
-    private ScoreManager scoreManagerComponent;
-
     [SerializeField] private GameObject challenge;
 
     [SerializeField] private GameObject pass;
@@ -36,7 +32,6 @@ public class InputFieldManager : MonoBehaviour
     void OnEnable()
     {
         linearRegressionComponent = linearRegression.GetComponent<LinearRegression>();
-        scoreManagerComponent = scoreManager.GetComponent<ScoreManager>();
         inputField.onEndEdit.AddListener(OnEndEdit);
     }
 
@@ -57,7 +52,6 @@ public class InputFieldManager : MonoBehaviour
                 
                 challenge.SetActive(false);
                 pass.SetActive(true);
-                scoreManagerComponent.score += passwordStrength;
             }
             else
             {
@@ -67,7 +61,6 @@ public class InputFieldManager : MonoBehaviour
                 }
                 challenge.SetActive(false);
                 fail.SetActive(true);
-                scoreManagerComponent.score += passwordStrength;
             }
            
         }
