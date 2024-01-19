@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TypewriterEffect : MonoBehaviour
 {
     [SerializeField] private float delay;// Time delay between each character
-    [SerializeField] private string fullText;     // The full text to be displayed
+    public string fullText;     // The full text to be displayed
     private string currentText = "";  // The text currently displayed
     private TextMeshProUGUI textComponent;
 

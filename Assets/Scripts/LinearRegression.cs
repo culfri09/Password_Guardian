@@ -13,15 +13,9 @@ public class LinearRegression : MonoBehaviour
     // Bias term for linear regression
     private float biasTerm = 0.1f;
 
-    public void SayHola()
-    {
-        Debug.Log("hola");
-    }
-
     // Evaluate password strength using linear regression
     public float EvaluatePasswordStrength(string password)
     {
-        Debug.Log("password is" + password);
         int length = password.Length;
         int complexity = CountComplexity(password);
         int pattern = HasPattern(password) ? 1 : 0;
