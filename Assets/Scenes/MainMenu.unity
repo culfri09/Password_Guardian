@@ -354,6 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: import
   newText: {fileID: 1514262277}
 --- !u!1 &264166407
@@ -503,6 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: def
   newText: {fileID: 1575320994}
 --- !u!1 &368058674
@@ -1006,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ':'
   newText: {fileID: 145933873}
 --- !u!1 &828965898
@@ -1155,6 +1158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ':'
   newText: {fileID: 1319447756}
 --- !u!1 &846561502
@@ -1436,6 +1440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ()
   newText: {fileID: 688157795}
 --- !u!1 &990190187
@@ -1585,6 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: settings
   newText: {fileID: 2111873418}
 --- !u!1 &1053648155
@@ -1773,6 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: play
   newText: {fileID: 1807045501}
 --- !u!1 &1289156977
@@ -1959,6 +1966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: def
   newText: {fileID: 990190187}
 --- !u!1 &1361624771
@@ -2109,6 +2117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: def
   newText: {fileID: 1126914634}
 --- !u!114 &1361624776
@@ -2547,6 +2556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: PasswordGuardian
   newText: {fileID: 1361624771}
 --- !u!1 &1539873886
@@ -2696,6 +2706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ':'
   newText: {fileID: 264166407}
 --- !u!1 &1575320994
@@ -2845,6 +2856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: exit
   newText: {fileID: 977397098}
 --- !u!1 &1660811497
@@ -3031,6 +3043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ()
   newText: {fileID: 828965898}
 --- !u!1 &1927459915
@@ -3430,6 +3443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0.15
   fullText: ()
   newText: {fileID: 1539873886}
 --- !u!1660057539 &9223372036854775807
