@@ -7,12 +7,27 @@ public class InputFieldManager : MonoBehaviour
 {
     [SerializeField] private InputField inputField;
 
-    private string userPassword;
+    [SerializeField] private GameObject linearRegression;
 
-    void OnEnable()
+    private LinearRegression linearRegressionComponent;
+
+    [SerializeField] private GameObject challenge;
+
+    [SerializeField] private GameObject pass;
+
+    [SerializeField] private GameObject fail;
+
+    [SerializeField] private AudioSource audioSource;
+
+    private void Start()
     {
         inputField.Select();
         inputField.ActivateInputField();
+    }
+
+    void OnEnable()
+    {
+        linearRegressionComponent = linearRegression.GetComponent<LinearRegression>();
         inputField.onEndEdit.AddListener(OnEndEdit);
     }
 
@@ -21,7 +36,21 @@ public class InputFieldManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             Debug.Log("User pressed Enter! Input: " + userInput);
-            userPassword = userInput;
+            float passwordStrength = linearRegressionComponent.EvaluatePasswordStrength(userInput);
+            Debug.Log(passwordStrength);
+
+            if(passwordStrength > 10)
+            {
+                audioSource.Play();
+                challenge.SetActive(false);
+                pass.SetActive(true);
+            }
+            else
+            {
+                challenge.SetActive(false);
+                fail.SetActive(true);
+            }
+           
         }
     }
 }
