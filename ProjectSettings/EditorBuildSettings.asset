@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BruteAttack.unity
     guid: ce626a1843d88844589b03dbca924af3
+  - enabled: 1
+    path: Assets/Scenes/AfterChallenge2.unity
+    guid: fc650b460830d894f8f4847f0f9c95dd
   m_configObjects: {}
