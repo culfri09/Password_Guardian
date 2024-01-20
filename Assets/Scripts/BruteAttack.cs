@@ -141,7 +141,7 @@ public class BruteAttack : MonoBehaviour
 
     IEnumerator ShowText()
     {
-        string fullText = "Acces denied";
+        string fullText = "Access denied";
         string currentText = "";
         for (int i = 0; i <= fullText.Length; i++)
         {
