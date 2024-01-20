@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Advice.unity
     guid: 1a77c1710f1bc784c8a9f8de3b38566a
+  - enabled: 1
+    path: Assets/Scenes/NewChallenges.unity
+    guid: a54b1ab849045ff468529b64e8dea634
+  - enabled: 1
+    path: Assets/Scenes/Challenge2.unity
+    guid: e7b11b85809af6449a6ed00be52080ec
+  - enabled: 1
+    path: Assets/Scenes/BruteAttack.unity
+    guid: ce626a1843d88844589b03dbca924af3
   m_configObjects: {}
