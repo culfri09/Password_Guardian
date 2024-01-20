@@ -27,18 +27,29 @@ public class BruteAttack : MonoBehaviour
 
     private TextMeshProUGUI failText;
 
-    private TextMeshProUGUI passText;
-
     [SerializeField] private GameObject passObject;
 
 
     public GameObject tipObject;
 
-    private TypewriterEffect typewriterEffect;
 
     private TextMeshProUGUI tipText;
 
-    private string[] tips = { "\"\"\"Numbers play a role in Alicia's password\"\"\"", "\"\"\"Think about commonly used and easy-to-remember numbers\"\"\"", "\"\"\"Consider the length of Alicia's full name and how it might contribute to her password.\"\"\"", "\"\"\"Experiment with  alphabetical characters from Alicia's name with numeric sequences.\"\"\"", "\"\"\"Remember, Alicia's password should be easy to recall. Keep it simple!\"\"\"" };
+    public TextMeshProUGUI characterCountText;
+
+    string[] tips = {
+    "\"\"\"Numbers play a role in Alicia's password\"\"\"",
+    "\"\"\"Think about commonly used and easy-to-remember numbers\"\"\"",
+    "\"\"\"Consider the length of Alicia's full name and how it might contribute to her password.\"\"\"",
+    "\"\"\"Experiment with alphabetical characters from Alicia's name with numeric sequences.\"\"\"",
+    "\"\"\"Remember, Alicia's password should be easy to recall. Keep it simple!\"\"\"",
+    "\"\"\"Alicia's password is intentionally easy to recall.\"\"\"",
+    "\"\"\"Keep in mind that the password consists of lowercase letters only.\"\"\"",
+    "\"\"\"It's a combination of Alicia's name and simple numeric characters.\"\"\"",
+    "\"\"\"The password follows the pattern: alicia + easy-to-remember numbers.\"\"\"",
+    "\"\"\"Don't overthink it! The simplicity of the password is key.\"\"\""
+    };
+
 
 
     private void Start()
@@ -48,13 +59,12 @@ public class BruteAttack : MonoBehaviour
         clickSound.Play();
         passwordIF.onEndEdit.AddListener(OnEndEdit);
         failText = failObject.GetComponent<TextMeshProUGUI>();
-        passText = passObject.GetComponent<TextMeshProUGUI>();
-        typewriterEffect = tipObject.GetComponent<TypewriterEffect>();
         tipText = tipObject.GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
     {
+        characterCountText.text = "[" + passwordIF.text.Length + "]";
         if (isAttackInProgress)
         {
             if (timeRemaining > 0)
@@ -124,7 +134,7 @@ public class BruteAttack : MonoBehaviour
         {
             currentText = randomTip.Substring(0, i);
             tipText.text = currentText;
-            yield return new WaitForSeconds(0.03f);
+            yield return new WaitForSeconds(0.01f);
         }
     }
 
