@@ -121,12 +121,13 @@ public class BruteAttack : MonoBehaviour
 
     private void AccessDenied()
     {
-        StartCoroutine(ShowText());
         StartCoroutine(ShowObjectForSeconds(3f));
+        StartCoroutine(ShowTip());
+        
         incorrectSound.Play();
     }
 
-    IEnumerator ShowText()
+    IEnumerator ShowTip()
     {
         string currentText = "";
         string randomTip = tips[Random.Range(0, tips.Length)];
@@ -138,10 +139,24 @@ public class BruteAttack : MonoBehaviour
         }
     }
 
+    IEnumerator ShowText()
+    {
+        string fullText = "Acces denied";
+        string currentText = "";
+        for (int i = 0; i <= fullText.Length; i++)
+        {
+            currentText = fullText.Substring(0, i);
+            failText.text = currentText;
+            yield return new WaitForSeconds(0.06f);
+        }
+
+    }
+
 
     IEnumerator ShowObjectForSeconds(float secondsToShow)
     {
         failObject.SetActive(true);
+        StartCoroutine(ShowText());
 
         yield return new WaitForSeconds(secondsToShow);
         StartCoroutine(HideText());
@@ -149,7 +164,7 @@ public class BruteAttack : MonoBehaviour
     }
     IEnumerator HideText()
     {
-        string fullText = failText.text;
+        string fullText = "Acces denied";
         string currentText = "";
 
         for (int i = fullText.Length; i >= 0; i--)
