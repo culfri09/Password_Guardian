@@ -180,7 +180,7 @@ MonoBehaviour:
     attempting all possible combinations of characters within a tight 1-minute window.
     The clock is ticking, and there's a catch \u2013 your salary decreases with each
     passing second. Ready to dive in? Press start whenever you're set.\"\"\""
-  newText: {fileID: 591760032}
+  newText: {fileID: 1398746364}
 --- !u!114 &24501348
 MonoBehaviour:
   m_ObjectHideFlags: 0
