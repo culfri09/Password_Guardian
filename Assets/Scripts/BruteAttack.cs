@@ -32,6 +32,15 @@ public class BruteAttack : MonoBehaviour
     [SerializeField] private GameObject passObject;
 
 
+    public GameObject tipObject;
+
+    private TypewriterEffect typewriterEffect;
+
+    private TextMeshProUGUI tipText;
+
+    private string[] tips = { "\"\"\"Numbers play a role in Alicia's password\"\"\"", "\"\"\"Think about commonly used and easy-to-remember numbers\"\"\"", "\"\"\"Consider the length of Alicia's full name and how it might contribute to her password.\"\"\"", "\"\"\"Experiment with  alphabetical characters from Alicia's name with numeric sequences.\"\"\"", "\"\"\"Remember, Alicia's password should be easy to recall. Keep it simple!\"\"\"" };
+
+
     private void Start()
     {
         passwordIF.Select();
@@ -40,6 +49,8 @@ public class BruteAttack : MonoBehaviour
         passwordIF.onEndEdit.AddListener(OnEndEdit);
         failText = failObject.GetComponent<TextMeshProUGUI>();
         passText = passObject.GetComponent<TextMeshProUGUI>();
+        typewriterEffect = tipObject.GetComponent<TypewriterEffect>();
+        tipText = tipObject.GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
@@ -100,8 +111,21 @@ public class BruteAttack : MonoBehaviour
 
     private void AccessDenied()
     {
+        StartCoroutine(ShowText());
         StartCoroutine(ShowObjectForSeconds(3f));
         incorrectSound.Play();
+    }
+
+    IEnumerator ShowText()
+    {
+        string currentText = "";
+        string randomTip = tips[Random.Range(0, tips.Length)];
+        for (int i = 0; i <= randomTip.ToString().Length; i++)
+        {
+            currentText = randomTip.Substring(0, i);
+            tipText.text = currentText;
+            yield return new WaitForSeconds(0.03f);
+        }
     }
 
 
