@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Challenge3.unity
     guid: dda7b83c85a775740ad6b103a0cac240
+  - enabled: 1
+    path: Assets/Scenes/Emails.unity
+    guid: 10749e7995596c14ba3b4528506808c4
   m_configObjects: {}

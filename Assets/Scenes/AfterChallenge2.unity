@@ -807,6 +807,7 @@ GameObject:
   - component: {fileID: 430332830}
   - component: {fileID: 430332829}
   - component: {fileID: 430332828}
+  - component: {fileID: 430332832}
   m_Layer: 5
   m_Name: Continue_Btt
   m_TagString: Untagged
@@ -927,6 +928,19 @@ RectTransform:
   m_AnchoredPosition: {x: -442.4, y: 34.5}
   m_SizeDelta: {x: 36.467, y: 10.0167}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &430332832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430332827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2552bcfb4e2c06479f1452b41e80321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 430332828}
 --- !u!1 &750914482
 GameObject:
   m_ObjectHideFlags: 0
