@@ -14,7 +14,7 @@ public class Wait5Secs : MonoBehaviour
     IEnumerator Wait3Secs(float secondsToShow)
     {
         yield return new WaitForSeconds(secondsToShow);
-        SceneManager.LoadScene("Emails");
+        SceneManager.LoadScene("Hack");
 
     }
 }
