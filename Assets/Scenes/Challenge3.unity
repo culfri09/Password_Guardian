@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.09
-  fullText: ': Disr'
+  fullText: ': Prince of'
   newText: {fileID: 17350891}
 --- !u!114 &31990298
 MonoBehaviour:
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.09
-  fullText: ': Click on the provided link to address the security threat.'
+  fullText: ': The Last of Us.'
   newText: {fileID: 619217364}
 --- !u!114 &565290609
 MonoBehaviour:
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.09
-  fullText: ': Reply to the email with your account details.'
+  fullText: ': Cyberpunk 2077.'
   newText: {fileID: 36448437}
 --- !u!114 &1092994399
 MonoBehaviour:
@@ -1896,7 +1896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188, y: -204}
+  m_AnchoredPosition: {x: -188, y: -165}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1413131198
@@ -1933,7 +1933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188, y: -158}
+  m_AnchoredPosition: {x: -188, y: -119}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1448688576
@@ -1987,11 +1987,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.09
-  fullText: '"""Imagine you''re sitting at your computer, engrossed in your work,
-    when a seemingly urgent email pops up in your inbox. It claims to be from the
-    IT department and requests immediate action due to a security threat. The email
-    contains a link and asks you to click on it to verify your account. What do you
-    do?"""'
+  fullText: '"""Imagine you''re at your desktop, logging into your PlayStation account,
+    excitement coursing through your fingertips. The vast gaming world unfolds, presenting
+    you with some intriguing options. Choose the one that calls to you."""'
   newText: {fileID: 679061596}
 --- !u!114 &1448688579
 MonoBehaviour:
@@ -2241,7 +2239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188, y: -113}
+  m_AnchoredPosition: {x: -188, y: -74}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1811268215
