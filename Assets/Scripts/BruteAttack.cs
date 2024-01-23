@@ -147,7 +147,7 @@ public class BruteAttack : MonoBehaviour
         {
             currentText = fullText.Substring(0, i);
             failText.text = currentText;
-            yield return new WaitForSeconds(0.06f);
+            yield return new WaitForSeconds(0.02f);
         }
 
     }

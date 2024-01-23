@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.03
+  delay: 0.02
   fullText: Access granted!
   newText: {fileID: 1460448533}
 --- !u!114 &239871407
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.03
+  delay: 0.02
   fullText: Acces denied.
   newText: {fileID: 1460448533}
 --- !u!114 &452015110
