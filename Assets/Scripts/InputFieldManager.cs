@@ -21,6 +21,8 @@ public class InputFieldManager : MonoBehaviour
 
     [SerializeField] private GameObject stopAudio;
 
+    public AudioSource correctAudio;
+    public AudioSource incorrectAudio;
 
 
     private void Start()
@@ -52,6 +54,7 @@ public class InputFieldManager : MonoBehaviour
                 
                 challenge.SetActive(false);
                 pass.SetActive(true);
+                correctAudio.Play();
             }
             else
             {
@@ -61,6 +64,7 @@ public class InputFieldManager : MonoBehaviour
                 }
                 challenge.SetActive(false);
                 fail.SetActive(true);
+                incorrectAudio.Play();
             }
            
         }
