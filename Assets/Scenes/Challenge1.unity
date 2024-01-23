@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"Strengthen your bank security. Create a strong password '
   newText: {fileID: 63863905}
 --- !u!1 &52035687
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 1415168091}
 --- !u!114 &56273774
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: 'using a mix of letters, numbers, and symbols. Make it strong, yet '
   newText: {fileID: 1151287245}
 --- !u!1 &80387278
@@ -823,7 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: continue
   newText: {fileID: 1766270324}
 --- !u!114 &97916714
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 279731470}
 --- !u!1 &111530499
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: quit
   newText: {fileID: 941171179}
 --- !u!114 &111530502
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 873654299}
 --- !u!1 &254048312
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 1573687442}
 --- !u!1 &268606615
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 1626346800}
 --- !u!1 &279731470
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 261402410}
 --- !u!1 &350571954
@@ -2162,7 +2162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 873654299}
 --- !u!114 &352213292
@@ -2409,7 +2409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: length for added protection."""
   newText: {fileID: 900121736}
 --- !u!1 &405338590
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: =
   newText: {fileID: 873654299}
 --- !u!114 &459996683
@@ -2921,7 +2921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: try_again
   newText: {fileID: 56273771}
 --- !u!114 &507376906
@@ -3168,7 +3168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 276098182}
 --- !u!1 &531266374
@@ -3356,7 +3356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: challenge
   newText: {fileID: 579207865}
 --- !u!1 &556718446
@@ -3506,7 +3506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 530092018}
 --- !u!1 &562327057
@@ -3693,7 +3693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: =
   newText: {fileID: 25472812}
 --- !u!1 &626581151
@@ -4139,7 +4139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 1441335643}
 --- !u!114 &900121743
@@ -4205,7 +4205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 352213289}
 --- !u!114 &941171182
@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"""The password is too simple and easily guessable. Strengthen it by'
   newText: {fileID: 1496443652}
 --- !u!114 &981367454
@@ -4543,7 +4543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 97916711}
 --- !u!114 &985539355
@@ -5196,7 +5196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: easy to remember. Let's keep your finances safe!"
   newText: {fileID: 1576177593}
 --- !u!1 &1152880550
@@ -5377,7 +5377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 507376903}
 --- !u!114 &1153054893
@@ -5807,7 +5807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"""Excellent job! Your password is strong and secure. Keep up the '
   newText: {fileID: 1439083408}
 --- !u!1 &1216774922
@@ -6158,7 +6158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"""Let''s kick off the first challenge! Generate a strong password using
     the previous advice."""'
   newText: {fileID: 547797258}
@@ -6309,7 +6309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 111530499}
 --- !u!114 &1403873622
@@ -6459,7 +6459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 1403873619}
 --- !u!114 &1415168094
@@ -6745,7 +6745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: 'good work by maintaining complexity and considering password '
   newText: {fileID: 354064157}
 --- !u!1 &1441335643
@@ -6895,7 +6895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: continue
   newText: {fileID: 102967488}
 --- !u!1 &1449216983
@@ -7045,7 +7045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 237061788}
 --- !u!1 &1491791365
@@ -7137,7 +7137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: 'adding complexity, avoiding common sequences, and increasing its '
   newText: {fileID: 1574121997}
 --- !u!114 &1496443655
@@ -7420,7 +7420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: try_again
   newText: {fileID: 556718446}
 --- !u!1 &1574121997
@@ -7473,7 +7473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: length for better security."""
   newText: {fileID: 985539352}
 --- !u!114 &1574122000
@@ -7720,7 +7720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: password
   newText: {fileID: 459996677}
 --- !u!1 &1585030401
@@ -7942,7 +7942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: quit
   newText: {fileID: 1449216983}
 --- !u!1 &1722623930
@@ -8033,7 +8033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 1822612253}
 --- !u!114 &1766270327
@@ -8220,7 +8220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 1153054890}
 --- !u!114 &1822612256

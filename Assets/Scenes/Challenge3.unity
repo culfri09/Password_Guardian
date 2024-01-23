@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ': Prince of'
   newText: {fileID: 17350891}
 --- !u!114 &31990298
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: option 3
   newText: {fileID: 31990295}
 --- !u!114 &36448441
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ': The Last of Us.'
   newText: {fileID: 619217364}
 --- !u!114 &565290609
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: option 2
   newText: {fileID: 1092994396}
 --- !u!114 &619217368
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: option 1
   newText: {fileID: 565290607}
 --- !u!114 &679061599
@@ -1762,7 +1762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ': Cyberpunk 2077.'
   newText: {fileID: 36448437}
 --- !u!114 &1092994399
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"""Imagine you''re at your desktop, logging into your PlayStation account,
     excitement coursing through your fingertips. The vast gaming world unfolds, presenting
     you with some intriguing options. Choose the one that calls to you."""'

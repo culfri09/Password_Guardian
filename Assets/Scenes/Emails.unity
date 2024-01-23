@@ -2120,7 +2120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.06
+  delay: 0.04
   fullText: '"""Dear Sir/Madam'
   newText: {fileID: 1181774461}
 --- !u!114 &319277216
@@ -7704,7 +7704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.06
+  delay: 0.04
   fullText: ' We have noticed some suspicious activity on your CyberSafe Inc. account.
     To secure your account, please click the following link to verify your identity.  
     CLICK HERE NOW!'
@@ -8636,14 +8636,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.06
-  fullText: '"""Now that you''ve encountered various phishing emails, let''s explore
-    social engineering and how to spot phishing attempts. Social engineering is a
-    manipulative tactic employed by cybercriminals to exploit human psychology, with
-    phishing being a prevalent form using deceptive emails. To identify phishing
-    attempts, stay vigilant for signs of urgency, verify the legitimacy of sender
-    addresses, insist on personalized greetings, exercise caution with attachments
-    or links, and be attentive to spelling and grammar errors. By being aware of
-    these red flags!"""'
+  fullText: '"""Having encountered phishing emails, it''s essential to delve into
+    social engineering and the significance of securing passwords. Social engineering,
+    a manipulative tactic, often manifests through deceptive emails targeting passwords.
+    Safeguarding your credentials is vital. Stay vigilant for urgency signs, verify
+    sender legitimacy, demand personalized greetings, exercise caution with attachments,
+    and be attentive to errors. Recognizing these red flags not only fortifies your
+    defense against phishing but also ensures the integrity of your passwords.""" '
   newText: {fileID: 1016244399}
 --- !u!114 &1259931495
 MonoBehaviour:
@@ -12083,7 +12082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.06
+  delay: 0.04
   fullText: Best regards, CyberSafe Inc."""
   newText: {fileID: 776085572}
 --- !u!114 &1714852270

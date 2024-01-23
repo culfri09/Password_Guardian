@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 397379209}
 --- !u!114 &161099638
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"No Familiar Faces: Avoid common words or personal info",'
   newText: {fileID: 716544558}
 --- !u!114 &249065091
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 158456624}
 --- !u!114 &397379212
@@ -872,7 +872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"Switch It Up: Don''t reuse passwords; change them regularly",'
   newText: {fileID: 914964883}
 --- !u!114 &716544561
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 1864810322}
 --- !u!114 &808486447
@@ -1332,7 +1332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 2139911569}
 --- !u!114 &813456466
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"Stay Unpredictable: Be creative to stay secure!"'
   newText: {fileID: 1833604918}
 --- !u!114 &914964886
@@ -1776,7 +1776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ' """Let''s take a closer look at creating a strong password. Follow
     these key tips!"""'
   newText: {fileID: 1922559565}
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"Lenght is Strength: Aim for 12+ characters", '
   newText: {fileID: 1164834396}
 --- !u!114 &966046398
@@ -2077,7 +2077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: =[
   newText: {fileID: 966046395}
 --- !u!114 &1064708944
@@ -2480,7 +2480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"Mix & Match: Use uppercase, lowecase, numbers, and symbols",'
   newText: {fileID: 249065088}
 --- !u!114 &1164834399
@@ -2730,7 +2730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 1682306928}
 --- !u!114 &1561278658
@@ -2880,7 +2880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 808486444}
 --- !u!114 &1682306930
@@ -3049,7 +3049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ']'
   newText: {fileID: 813456463}
 --- !u!114 &1833604921
@@ -3331,7 +3331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: quit
   newText: {fileID: 161099635}
 --- !u!114 &1864810325
@@ -3481,7 +3481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: advice
   newText: {fileID: 1064708941}
 --- !u!114 &1922559568
@@ -3612,7 +3612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: continue
   newText: {fileID: 1561278656}
 --- !u!114 &2139911571

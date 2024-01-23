@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 1256171565}
 --- !u!114 &39519747
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: quit
   newText: {fileID: 1072759701}
 --- !u!114 &64098373
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 795246615}
 --- !u!114 &185828576
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 1820988284}
 --- !u!114 &795246618
@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ()
   newText: {fileID: 1781998367}
 --- !u!114 &1072759704
@@ -1597,7 +1597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: continue
   newText: {fileID: 185828573}
 --- !u!114 &1256171568
@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: '"""Now that you''ve experienced firsthand how vulnerable weak passwords
     can be, it''s crucial to understand the significance of fortifying your digital
     defenses. Imagine if Alicia Keys had used a more secure password; the outcome
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: ':'
   newText: {fileID: 2058294808}
 --- !u!114 &1781998370
@@ -2120,7 +2120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba660c97c4fbe4c946bc3396ce62a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.09
+  delay: 0.07
   fullText: def
   newText: {fileID: 64098370}
 --- !u!114 &1820988287
