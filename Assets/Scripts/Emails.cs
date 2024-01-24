@@ -55,10 +55,7 @@ public class Emails : MonoBehaviour
             }
             else
             {
-                timerText.text = "\"00:00\"";
-                clockSound.Stop();
-                info.SetActive(true);
-              //  typeSound.Play();
+                SceneManager.LoadScene("Emails");
             }
         }
     }
